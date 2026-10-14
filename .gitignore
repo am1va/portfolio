@@ -1,3 +1,7 @@
 verification/
 history/
 *.log
+
+evidence/
+browser-check/
+

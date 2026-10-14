@@ -19,3 +19,6 @@ Compact booking popup: width reduced from 720 to 580px, calendar viewport from 6
 
 Reference refinement: dialog 540px wide, calendar 390px high, smaller handwritten heading and tighter note spacing. Mobile calendar capped at 55dvh. CSS cache version 6. Actual localhost desktop/mobile browser checks passed with live Calendly iframe. User screenshot still showed original 720px layout, so GitHub push and cache refresh remain necessary for public changes.
 
+
+Restored Calendly event details: changed hide_event_type_details from 1 to 0 and bumped booking.js cache version. Desktop/mobile localhost checks passed. Header content comes from actual Calendly event settings, not the reference person's identity. No account event settings changed. GitHub push remains user-managed.
+

@@ -13,3 +13,6 @@ Verification: actual localhost:8083 returned HTTP 200. Desktop 1440 and mobile 3
 
 Calendly connected to user-supplied https://calendly.com/robertpaulpelo/30min. Actual localhost desktop/mobile checks passed; official Calendly iframe loaded correct URL at 1440 and 390 widths, screenshot shows real date selection and available dates. Evidence in evidence/calendly-{1440,390}.json and booking screenshots. No appointment submitted or confirmation email tested. Preferences/cookies remain browser/Calendly-managed.
 
+
+Compact booking popup: width reduced from 720 to 580px, calendar viewport from 640 to 470px (480px on mobile), reduced heading and padding. CSS cache version bumped to 5. Actual localhost desktop/mobile checks passed; calendar remains scrollable for full booking flow. GitHub push pending user authentication.
+

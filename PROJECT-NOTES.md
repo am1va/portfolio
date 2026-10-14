@@ -16,3 +16,6 @@ Calendly connected to user-supplied https://calendly.com/robertpaulpelo/30min. A
 
 Compact booking popup: width reduced from 720 to 580px, calendar viewport from 640 to 470px (480px on mobile), reduced heading and padding. CSS cache version bumped to 5. Actual localhost desktop/mobile checks passed; calendar remains scrollable for full booking flow. GitHub push pending user authentication.
 
+
+Reference refinement: dialog 540px wide, calendar 390px high, smaller handwritten heading and tighter note spacing. Mobile calendar capped at 55dvh. CSS cache version 6. Actual localhost desktop/mobile browser checks passed with live Calendly iframe. User screenshot still showed original 720px layout, so GitHub push and cache refresh remain necessary for public changes.
+

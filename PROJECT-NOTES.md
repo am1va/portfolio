@@ -22,3 +22,6 @@ Reference refinement: dialog 540px wide, calendar 390px high, smaller handwritte
 
 Restored Calendly event details: changed hide_event_type_details from 1 to 0 and bumped booking.js cache version. Desktop/mobile localhost checks passed. Header content comes from actual Calendly event settings, not the reference person's identity. No account event settings changed. GitHub push remains user-managed.
 
+
+Booking palette adapted to portfolio: theme surface (cream in light mode, navy in dark mode), orange top accent, theme-aware text/borders and rounded corners. Compact dimensions retained. Cache version 7. Actual localhost desktop/mobile checks passed; light/dark screenshots saved, desktop dark inspected. Calendly calendar remains its own white third-party interface. Public update requires GitHub Desktop push.
+
